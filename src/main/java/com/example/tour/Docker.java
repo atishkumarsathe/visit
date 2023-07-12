@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.RestController;
 public class Docker {
     @GetMapping("/Docker")
     public String getData() {return  "Docker engine runs docker daemon which does heavy lifting of creating " +
-            "deleting and managing containers"; }
+            "deleting and managing containers."; }
 }
